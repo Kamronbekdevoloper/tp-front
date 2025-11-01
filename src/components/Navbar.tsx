@@ -1,5 +1,16 @@
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div>
+      <ul>
+        <li>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+  );
 };
 
 export default Navbar;
