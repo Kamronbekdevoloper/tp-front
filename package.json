@@ -15,10 +15,13 @@
     "*.{js,jsx,ts,tsx}": "eslint --fix"
   },
   "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "install": "^0.13.0",
+    "lucide": "^0.552.0",
     "lucide-react": "^0.548.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
