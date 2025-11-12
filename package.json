@@ -1,47 +1,50 @@
 {
-  "name": "tp-front",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "prepare": "husky",
-    "lint-staged": "lint-staged",
-    "format": "biome format --write ."
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,md}": []
-  },
-  "dependencies": {
-    "@radix-ui/react-dropdown-menu": "^2.1.16",
-    "@radix-ui/react-slot": "^1.2.3",
-    "@tailwindcss/vite": "^4.1.16",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "install": "^0.13.0",
-    "lucide": "^0.552.0",
-    "lucide-react": "^0.548.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-router": "^7.9.5",
-    "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.16"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.3.4",
-    "@commitlint/cli": "^20.1.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "@types/node": "^24.6.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
-    "@vitejs/plugin-react-swc": "^4.1.0",
-    "globals": "^16.4.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.6",
-    "tw-animate-css": "^1.4.0",
-    "typescript": "~5.9.3",
-    "vite": "^7.1.7"
-  }
+	"name": "tp-front",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview",
+		"prepare": "husky",
+		"lint-staged": "lint-staged",
+		"format": "biome format --write ."
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx,json,css,md}": []
+	},
+	"dependencies": {
+		"@radix-ui/react-dropdown-menu": "^2.1.16",
+		"@radix-ui/react-select": "^2.2.6",
+		"@radix-ui/react-slot": "^1.2.3",
+		"@tailwindcss/vite": "^4.1.16",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"i18next": "^25.6.1",
+		"install": "^0.13.0",
+		"lucide": "^0.552.0",
+		"lucide-react": "^0.548.0",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"react-i18next": "^16.2.4",
+		"react-router": "^7.9.5",
+		"tailwind-merge": "^3.3.1",
+		"tailwindcss": "^4.1.16"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.4",
+		"@commitlint/cli": "^20.1.0",
+		"@commitlint/config-conventional": "^20.0.0",
+		"@types/node": "^24.6.0",
+		"@types/react": "^19.1.16",
+		"@types/react-dom": "^19.1.9",
+		"@vitejs/plugin-react-swc": "^4.1.0",
+		"globals": "^16.4.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.6",
+		"tw-animate-css": "^1.4.0",
+		"typescript": "~5.9.3",
+		"vite": "^7.1.7"
+	}
 }

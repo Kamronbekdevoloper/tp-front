@@ -1,6 +1,6 @@
-import { createBrowserRouter } from "react-router";
-import DefaultLayout from "./components/layout/default-layout";
-import { HiRoute } from "./pages/Hi/routes";
+import { createBrowserRouter } from "react-router"
+import DefaultLayout from "./components/layout/default-layout"
+import { HiRoute } from "./pages/Hi/routes"
 
 export const router = createBrowserRouter([
 	{
@@ -8,4 +8,4 @@ export const router = createBrowserRouter([
 		element: <DefaultLayout />,
 		children: [...HiRoute],
 	},
-]);
+])
