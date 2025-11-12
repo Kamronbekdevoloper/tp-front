@@ -1,19 +1,19 @@
-import { useTheme } from "@/components/providers/theme-provider";
-import { Moon, Sun } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useTheme } from "@/components/providers/theme-provider"
+import { Moon, Sun } from "lucide-react"
+import { useEffect, useState } from "react"
 
 export function ModeToggle() {
-	const { theme, setTheme } = useTheme();
-	const [show, setShow] = useState(theme === "dark");
+	const { theme, setTheme } = useTheme()
+	const [show, setShow] = useState(theme === "dark")
 
 	useEffect(() => {
-		setShow(theme === "dark");
-	}, [theme]);
+		setShow(theme === "dark")
+	}, [theme])
 
 	function toggleTheme() {
-		const newTheme = show ? "light" : "dark";
-		setTheme(newTheme);
-		setShow(!show);
+		const newTheme = show ? "light" : "dark"
+		setTheme(newTheme)
+		setShow(!show)
 	}
 
 	return (
@@ -24,5 +24,5 @@ export function ModeToggle() {
 				<Moon className="h-[1.2rem] w-[1.2rem]  rotate-90 transition-all dark:scale-100 dark:rotate-0 " />
 			)}
 		</button>
-	);
+	)
 }

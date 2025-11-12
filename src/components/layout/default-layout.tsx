@@ -1,6 +1,6 @@
-import { Suspense } from "react";
-import { Outlet } from "react-router";
-import Header from "./header/mainHeader";
+import { Suspense } from "react"
+import { Outlet } from "react-router"
+import Header from "./header/mainHeader"
 
 const DefaultLayout = () => {
 	return (
@@ -10,6 +10,6 @@ const DefaultLayout = () => {
 				<Outlet />
 			</Suspense>
 		</div>
-	);
-};
-export default DefaultLayout;
+	)
+}
+export default DefaultLayout

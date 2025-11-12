@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next"
+
 const Hi = () => {
-	return <div>I create all file structure that we need in the futere</div>;
-};
-export default Hi;
+	const { t } = useTranslation()
+	return <div>{t("title.mainTitle")}</div>
+}
+export default Hi
