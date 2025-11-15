@@ -8,7 +8,7 @@ export const HiRoute: RouteObject[] = [
 		children: [
 			{
 				index: true,
-				element: <Hi />,
+				element: <Hi customClass="mt-[10px]" />,
 			},
 		],
 	},

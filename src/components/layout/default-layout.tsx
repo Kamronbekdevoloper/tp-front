@@ -4,7 +4,7 @@ import Header from "./header/mainHeader"
 
 const DefaultLayout = () => {
 	return (
-		<div className="mx-20 mt-5">
+		<div className="mt-[10px] mx-[15px] xs:mx-6 md:mx-7.5 lg:mx-9 xl:mx-18">
 			<Header />
 			<Suspense fallback={<p>Yuklanmoqda...</p>}>
 				<Outlet />

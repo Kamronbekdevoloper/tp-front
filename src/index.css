@@ -1,9 +1,16 @@
+@import url("../src/styles/container.scss");
 @import "tailwindcss";
 @import "tw-animate-css";
-
+@reference "tailwindcss";
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --breakpoint-xs: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
@@ -30,10 +37,6 @@
 
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
-  /* 
-  --color-container: var(--container);
-  --color-darkcontainer: var(--container-foreground);
-  --color-default_text_color: var(--default-text-color); */
 
   --color-form-card-header: var(--form-card-header);
 
@@ -167,16 +170,6 @@
     }
   }
 }
-
-/* @layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-} */
 
 @layer base {
   * {
