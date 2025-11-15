@@ -2,7 +2,7 @@ import { useTheme } from "@/components/providers/theme-provider"
 import { Moon, Sun } from "lucide-react"
 import { useEffect, useState } from "react"
 
-export function ModeToggle() {
+export function ModeToggle({ customClass }: { customClass?: string }) {
 	const { theme, setTheme } = useTheme()
 	const [show, setShow] = useState(theme === "dark")
 
@@ -17,7 +17,7 @@ export function ModeToggle() {
 	}
 
 	return (
-		<button onClick={toggleTheme} className="align-middle">
+		<button onClick={toggleTheme} className={`align-middle ${customClass} `}>
 			{show ? (
 				<Sun className="h-[1.2rem] w-[1.2rem]  scale-100  rotate-0  transition-all  dark:-rotate-80" />
 			) : (

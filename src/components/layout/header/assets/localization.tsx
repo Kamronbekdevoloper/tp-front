@@ -2,7 +2,7 @@ import { Globe } from "lucide-react"
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
 
-const LanguageSelector = () => {
+const LanguageSelector = ({ customClass }: { customClass?: string }) => {
 	const [show, setShow] = useState(false)
 	const [lang, setLang] = useState("uz")
 	const { i18n } = useTranslation()
@@ -14,7 +14,7 @@ const LanguageSelector = () => {
 	}
 
 	return (
-		<div>
+		<div className={`${customClass}`}>
 			<button
 				onClick={() => setShow(!show)}
 				className="flex items-center gap-2 px-2  bg-white dark:bg-gray-800 border rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition"
