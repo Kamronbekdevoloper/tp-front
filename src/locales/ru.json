@@ -1,5 +1,15 @@
 {
-	"title": {
-		"mainTitle": "Dobro pojalovat"
-	}
+  "title": {
+    "hero_Title": "Каждое слово - дверь к новым возможностям"
+  },
+  "subTitle": {
+    "hero_Subtitle": "Узнайте лучшие языки вместе с нами!"
+  },
+  "links": {
+    "home": "Главная",
+    "about": "О нас",
+    "files": "Файлы",
+    "interests": "Интересный",
+    "courses": "Курсы"
+  }
 }
