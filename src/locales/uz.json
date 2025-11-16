@@ -1,5 +1,15 @@
 {
-	"title": {
-		"mainTitle": "Salom Dunyo "
-	}
+  "title": {
+    "hero_Title": "Har bir so'z - yangi imkoniyat eshigi"
+  },
+  "subTitle": {
+    "hero_Subtitle": "Top tillarni biz bilan o’rganing!"
+  },
+  "links": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "files": "Fayllar",
+    "interests": "Qiziqarli",
+    "courses": "Kurslar"
+  }
 }

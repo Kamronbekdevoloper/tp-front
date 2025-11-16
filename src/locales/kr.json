@@ -1,5 +1,15 @@
 {
-	"title": {
-		"mainTitle": "Salem Dunyo"
-	}
+  "title": {
+    "hero_Title": "Hár bir sóz - jańa imkaniyatlar esigi"
+  },
+  "subTitle": {
+    "hero_Subtitle": "Top tillerdi biz benen úyreniń!"
+  },
+  "links": {
+    "home": "Bas bet",
+    "about": "Biz haqqında",
+    "files": "Fayllar",
+    "interests": "Qızıqlı",
+    "courses": "Kurslar"
+  }
 }
