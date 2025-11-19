@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import MobileNav from "@/components/navbar/mobileNav";
-import DesktopNav from "@/components/navbar/desktopNav";
+import MobileNav from "../navbar/mobileNav";
+import DesktopNav from "../navbar/desktopNav";
 
 export default function Header() {
   const [width, setWidth] = useState(window.innerWidth);

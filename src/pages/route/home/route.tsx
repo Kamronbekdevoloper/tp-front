@@ -1,14 +1,14 @@
 import { lazy } from "react";
 import type { RouteObject } from "react-router";
-const Hero = lazy(() => import("./hero"));
+const Home = lazy(() => import("./home"));
 
-export const HiRoute: RouteObject[] = [
+export const HomeRoute: RouteObject[] = [
   {
     path: "",
     children: [
       {
         index: true,
-        element: <Hero customClass="mt-[10px]" />,
+        element: <Home />,
       },
     ],
   },

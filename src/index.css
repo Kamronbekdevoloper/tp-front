@@ -3,7 +3,11 @@
 @import "tw-animate-css";
 @reference "tailwindcss";
 @custom-variant dark (&:is(.dark *));
-
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @theme inline {
   --breakpoint-xs: 576px;
   --breakpoint-md: 768px;
