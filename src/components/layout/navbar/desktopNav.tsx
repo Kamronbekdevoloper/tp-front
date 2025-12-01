@@ -1,5 +1,5 @@
-import LanguageSelector from "../layout/header/assets/localization";
-import { ModeToggle } from "../layout/header/assets/mode-toggle";
+import LanguageSelector from "../header/assets/localization";
+import { ModeToggle } from "../header/assets/mode-toggle";
 import Navlinks from "./navlinks";
 
 export default function DesktopNav() {
