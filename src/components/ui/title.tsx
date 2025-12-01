@@ -49,7 +49,7 @@ function CardSubTitle({
 
   return (
     <div>
-      <span className={`text-[14px] font-medium ${titleClass}`}>
+      <span className={`text-[14px] font-medium  ${titleClass}`}>
         {t(`${title}`)}
       </span>
     </div>
